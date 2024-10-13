@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Move : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField]MoveSteel moveSteel;
     void Start()
     {
         
@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
-
+            moveSteel.HareketEt(this,Vector3.forward);
         }
     }
 }
