@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59ed47edeef73324e84acacf3a29a16d, type: 3}
-  m_Name: "New Z\u0131plama Hareket Stili"
+  m_Script: {fileID: 11500000, guid: cedcc0fd7a8d81643a5c2f8c6569c362, type: 3}
+  m_Name: StartFirstCutscene
   m_EditorClassIdentifier: 
-  hiz: 50
-  "y\xFCkseklik": 10
-  mode: 1
